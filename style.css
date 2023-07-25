@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 :root {
   --text-primary: #ffffff;
@@ -15,14 +17,42 @@
 }
 body {
   background-color: var(--background);
+  /* -----------NAVBAR----------- */
 }
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 100%;
+  background-color: #a1e533;
+  gap: 1rem;
+  height: 200px;
+  position: fixed;
+  width: 100%;
 }
-.logo {
-  padding: 0 30px;
-  height: 10px;
-  border: solid 10px var(--text-secondary);
+.img {
+  padding: 10px 30px;
+  height: 200px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.brand {
+  font-family: var(--text-title);
+  font-size: 100px;
+  padding: 40px 0;
+}
+.menu {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  padding-top: 100px;
+  gap: 1.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--text-body);
+}
+.menu a {
+  color: var(--background);
 }
