@@ -59,7 +59,7 @@ header {
 }
 /* --------------HERO--------------- */
 main {
-  background: var(--background);
+  /* background: var(--background); */
   display: flex;
   flex-direction: column;
   align-items: center;
