@@ -197,4 +197,30 @@ main {
   color: var(--background);
   font-weight: 800;
   padding-bottom: 20px;
+  /* ----------clases---------- */
+}
+.info-clases {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+.info-clases h1 {
+  font-family: var(--text-title);
+  font-size: 100px;
+  color: var(--text-secondary);
+}
+.info-clases p {
+  width: 70%;
+  font-weight: 500;
+  font-size: 30px;
+}
+.clases-container {
+  background: #a1e533;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
