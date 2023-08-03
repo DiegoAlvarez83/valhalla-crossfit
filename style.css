@@ -223,23 +223,24 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 400px;
+  padding: 2rem;
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
+  gap: 2rem;
 }
 .info-wod {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10 px;
+  gap: 1.5rem;
 }
 .cross-wod img {
-  padding: 20px 50px;
-  max-width: 500px;
+  max-width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +257,6 @@ main {
   font-size: 30px;
 }
 .info-top p {
-  width: 50%;
   font-weight: 600;
   font-size: 15px;
   color: black;
@@ -265,7 +265,7 @@ main {
 .btn-add {
   border: none;
   background-color: var(--background);
-  padding: 20px 30px;
+  padding: 20px 20px;
   color: var(--background-secondary);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -273,11 +273,13 @@ main {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   cursor: pointer;
+  font-weight: 1000;
 }
 .clases-container {
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  flex-wrap: wrap;
 }
