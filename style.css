@@ -16,8 +16,17 @@
   --text-body: "Poppins", sans-serif;
 }
 body {
-  background: url(https://media.istockphoto.com/id/1140265911/photo/modern-brick-wall-3d-rendering.jpg?s=612x612&w=0&k=20&c=T_ObRkTzdFtYkBAekQoXFvrTkI5j8VXVXGjQEwRyi1g=)
-    center center/cover no-repeat;
+  /* background: url(https://media.istockphoto.com/id/1140265911/photo/modern-brick-wall-3d-rendering.jpg?s=612x612&w=0&k=20&c=T_ObRkTzdFtYkBAekQoXFvrTkI5j8VXVXGjQEwRyi1g=)
+    center center/cover no-repeat; */
+  background-color: #030303;
+  opacity: 1;
+  background-image: radial-gradient(
+    ellipse farthest-corner at 8px 8px,
+    #212121,
+    #212121 50%,
+    #030303 50%
+  );
+  background-size: 8px 8px;
 }
 /* -----------NAVBAR----------- */
 header {
@@ -282,4 +291,22 @@ main {
   align-items: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+#contactanos {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.contact-us h3 {
+  font-family: var(--text-title);
+  font-size: 100px;
+  color: #a1e533;
+}
+.contact-nav {
+  display: flex;
+  gap: 3rem;
+}
+.contact-nav a {
+  color: #ffffff;
+  font-size: 20px;
 }
