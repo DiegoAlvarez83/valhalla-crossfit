@@ -338,7 +338,10 @@ main {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  gap: 3rem;
+
+  gap: 2rem;
+  /* position: relative;
+  bottom: 10px; */
 }
 .contact-nav a {
   color: var(--background);
@@ -366,4 +369,41 @@ footer p {
 }
 footer span {
   font-weight: 1000;
+}
+.direccion,
+.email,
+.whatsapp {
+  display: flex;
+}
+.direccion img {
+  width: 30px;
+}
+.email img {
+  width: 30px;
+}
+.whatsapp img {
+  width: 30px;
+}
+.mensaje {
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+.mensaje h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--text-title);
+  color: #000000;
+  font-size: 30px;
+}
+.mensaje {
+  font-family: var(--text-body);
+  font-size: 170%;
+  color: var(--background);
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
