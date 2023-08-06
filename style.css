@@ -407,3 +407,14 @@ footer span {
   justify-content: center;
   align-items: center;
 }
+input {
+  width: 100%;
+  padding: 10px 100px;
+}
+textarea {
+  width: 100%;
+  padding: 60px 100px;
+}
+input {
+  text-align: right;
+}
