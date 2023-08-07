@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Tilt+Prism&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Poppins&family=Tilt+Prism&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --text-primary: #ffffff;
+  --background: #000000;
+  --text-secondary: #a1e533;
+  --background-secondary: #a6a6a6;
+  --text-title: "Bebas Neue", sans-serif;
+  --text-body: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #030303;
+  opacity: 1;
+  background-image: radial-gradient(
+    ellipse farthest-corner at 8px 8px,
+    #212121,
+    #212121 50%,
+    #030303 50%
+  );
+  background-size: 8px 8px;
+}
+.ini-reg {
+  width: 400px;
+  min-width: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.ini {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: chartreuse;
+  margin-bottom: 25px;
+  font-family: var(--text-title);
+  font-size: 100px;
+}
+.ini-reg input {
+  display: block;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+
+  border: 1px solid white;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  color: var(--background);
+  background: var(--text-secondary);
+  font-size: 1rem;
+  outline: none;
+}
+.ini-reg input[type="email"] {
+  margin-top: 20px;
+}
+.ini-reg input[type="password"] {
+  margin-top: 20px;
+}
+::placeholder {
+  color: var(--background);
+}
+.inicio a {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  height: 50px;
+  width: 60%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 3px solid #a1e533;
+  background: transparent;
+  cursor: pointer;
+}
+.inicio a,
+span {
+  color: #a1e533;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
