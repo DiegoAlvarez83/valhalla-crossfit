@@ -1,0 +1,32 @@
+@media (max-width: 1200px) {
+  .brand {
+    font-size: 50px;
+  }
+  .menu {
+    font-size: 15px;
+    gap: 10px;
+  }
+  #header {
+    gap: 1px;
+    height: 100px;
+    width: 20%;
+    position: relative;
+  }
+  #home {
+    max-width: 450px;
+  }
+  #nosotros {
+    width: 1000px;
+    height: 500px;
+  }
+  .about h2 {
+    font-size: 50px;
+  }
+  .info-clases h1 {
+    font-size: 50px;
+  }
+  .info-clases p {
+    font-size: 25px;
+    width: 900px;
+  }
+}
