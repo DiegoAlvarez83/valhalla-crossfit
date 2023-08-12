@@ -1,3 +1,5 @@
+/* --------1200 px-------- */
+
 @media (max-width: 1200px) {
   .brand {
     font-size: 50px;
@@ -30,6 +32,7 @@
     width: 900px;
   }
 }
+/* -----------1024 px---------- */
 @media (max-width: 1024px) {
   #home {
     max-width: 400px;
@@ -46,6 +49,7 @@
     max-width: 180px;
   }
 }
+/* ---------992 px-------- */
 @media (max-width: 992px) {
   #nosotros {
     width: 900px;
@@ -55,4 +59,59 @@
     width: 60%;
     height: 400px;
   }
+}
+/* -----------768 px------- */
+@media (max-width: 768px) {
+  #home {
+    max-width: 300px;
+  }
+  .home-info {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  #home h1 {
+    font-size: 40px;
+
+    min-width: 100px;
+  }
+  .video iframe {
+    width: 400px;
+    height: 300px;
+  }
+  #nosotros {
+    width: 700px;
+    height: 300px;
+  }
+  #nosotros img {
+    width: 50%;
+    height: 300px;
+  }
+  #nosotros h2 {
+    font-size: 30px;
+  }
+
+  #clases p {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 150px;
+  }
+  .info-clases {
+    /* background-color: brown; */
+    width: 800px;
+    height: 400px;
+  }
+}
+
+.contact-us {
+  max-width: 600px;
+}
+.mapa img {
+  width: 250px;
+  height: 300px;
+}
+.menu {
+  display: block;
+  padding-top: 50px;
 }
