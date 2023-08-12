@@ -115,3 +115,59 @@
   display: block;
   padding-top: 50px;
 }
+/* --------576 px------ */
+@media (max-width: 576px) {
+  #home {
+    max-width: 300px;
+    padding-left: 90px;
+    justify-content: space-around;
+    gap: 120px;
+  }
+  .video iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .home-info {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  #nosotros {
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+  }
+  #nosotros img {
+    width: 50%;
+    height: 300px;
+  }
+  #nosotros h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 10px;
+  }
+  .info-clases h1 {
+    font-size: 30px;
+  }
+  #clases p {
+    font-size: 20px;
+  }
+  #clases {
+    width: 120%;
+  }
+  .clases-container {
+    width: 115%;
+  }
+  #contactanos {
+    width: 80%;
+  }
+  #contactanos h3 {
+    margin-left: 150px;
+  }
+  .footer-links {
+    margin-left: 150px;
+  }
+  footer p {
+    margin-left: 150px;
+  }
+}
