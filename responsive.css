@@ -30,3 +30,19 @@
     width: 900px;
   }
 }
+@media (max-width: 1024px) {
+  #home {
+    max-width: 400px;
+  }
+  #home h1 {
+    font-size: 60px;
+    max-width: 100px;
+  }
+  .contact-us {
+    max-width: 900px;
+  }
+  .contact-nav {
+    /* background-color: brown; */
+    max-width: 180px;
+  }
+}
