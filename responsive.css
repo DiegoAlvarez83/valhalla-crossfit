@@ -171,3 +171,29 @@
     margin-left: 150px;
   }
 }
+@media (max-width: 480px) {
+  #home {
+    margin-left: 200px;
+  }
+  #nosotros {
+    margin-left: 200px;
+  }
+  #clases {
+    margin-left: 100px;
+  }
+  .clases-container {
+    margin-left: 70px;
+  }
+  #contactanos {
+    margin-left: 90px;
+  }
+  #contactanos h3 {
+    margin-left: 220px;
+  }
+  .footer-links {
+    margin-left: 300px;
+  }
+  footer p {
+    margin-left: 300px;
+  }
+}
