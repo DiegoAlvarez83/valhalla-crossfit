@@ -197,3 +197,29 @@
     margin-left: 300px;
   }
 }
+@media (max-width: 320px) {
+  #home {
+    margin-left: 400px;
+  }
+  #nosotros {
+    margin-left: 450px;
+  }
+  #clases {
+    margin-left: 50px;
+  }
+  .clases-container {
+    margin-left: 150px;
+  }
+  #contactanos {
+    margin-left: 90px;
+  }
+  #contactanos h3 {
+    margin-left: 300px;
+  }
+  .footer-links {
+    margin-left: 400px;
+  }
+  footer p {
+    margin-left: 400px;
+  }
+}
