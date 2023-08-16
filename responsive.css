@@ -102,9 +102,19 @@
     width: 800px;
     height: 400px;
   }
-}
+  .contact-us {
+    max-width: 600px;
+  }
+  .mapa img {
+    width: 250px;
+    height: 300px;
+  }
+  .menu {
+    display: block;
+    padding-top: 50px;
+  }
 
-.contact-us {
+  /* .contact-us {
   max-width: 600px;
 }
 .mapa img {
@@ -113,7 +123,7 @@
 }
 .menu {
   display: block;
-  padding-top: 50px;
+  padding-top: 50px; */
 }
 /* --------576 px------ */
 @media (max-width: 576px) {
