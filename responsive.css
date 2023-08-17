@@ -115,7 +115,7 @@
   }
 }
 /* --------576 px------ */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   #home {
     max-width: 300px;
     padding-left: 90px;
@@ -169,7 +169,7 @@
   footer p {
     margin-left: 150px;
   }
-}
+} */
 
 /* ---- 480 px-------- */
 /* @media (max-width: 480px) {
