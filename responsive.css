@@ -34,7 +34,7 @@
   }
 }
 /* -----------1024 px---------- */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   #home {
     max-width: 400px;
   }
@@ -46,10 +46,10 @@
     max-width: 900px;
   }
   .contact-nav {
-    /* background-color: brown; */
+   
     max-width: 180px;
   }
-}
+} */
 /* ---------992 px-------- */
 @media (max-width: 992px) {
   #nosotros {
@@ -114,17 +114,6 @@
     display: block;
     padding-top: 50px;
   }
-
-  /* .contact-us {
-  max-width: 600px;
-}
-.mapa img {
-  width: 250px;
-  height: 300px;
-}
-.menu {
-  display: block;
-  padding-top: 50px; */
 }
 /* --------576 px------ */
 @media (max-width: 576px) {
@@ -184,7 +173,7 @@
 }
 
 /* ---- 480 px-------- */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   #home {
     margin-left: 200px;
   }
@@ -209,9 +198,9 @@
   footer p {
     margin-left: 300px;
   }
-}
+} */
 /* -----------320 px------ */
-@media (max-width: 280px) {
+/* @media (max-width: 280px) {
   #home {
     margin-left: 400px;
   }
@@ -236,4 +225,4 @@
   footer p {
     margin-left: 400px;
   }
-}
+} */

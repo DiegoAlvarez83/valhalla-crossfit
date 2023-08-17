@@ -64,10 +64,10 @@ header {
   padding: 40px 0;
 }
 .menu {
-  display: flex;
+  display: block;
   /* justify-content: center;
   align-items: center; */
-  padding-top: 100px;
+  padding-top: 50px;
   gap: 1.5rem;
   font-size: 20px;
   font-weight: 600;
@@ -76,6 +76,18 @@ header {
 .menu a {
   color: var(--background);
 }
+.menu i{
+  font-size: 50px;
+  display: none;
+
+
+}
+#toggle-menu{
+  display: none;
+
+}
+
+
 /* --------------HERO--------------- */
 main {
   /* background: var(--background); */
