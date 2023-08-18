@@ -200,28 +200,48 @@
 } */
 /* -----------320 px------ */
 @media (max-width: 320px) {
+  header {
+    flex-direction: column;
+    height: 150px;
+    gap: 0.5px;
+  }
+  .img {
+    display: none;
+  }
+  .brand {
+    font-family: var(--text-title);
+    font-size: 70px;
+    padding-left: 100px;
+    padding-top: 80px;
+  }
+  .menu {
+    display: none;
+  }
+  .home-card {
+    display: none;
+  }
   #home {
-    margin-left: 400px;
+    padding-left: 70px;
+  }
+  .home-info {
+    gap: 0.5px;
+  }
+  .home-info h1 {
+    width: 400px;
+    height: 200px;
+  }
+  .home-info p {
+    font-size: 25px;
+    width: 230%;
+  }
+  #nosotros img {
+    display: none;
   }
   #nosotros {
-    margin-left: 450px;
+    width: 850px;
+    height: 300px;
   }
-  #clases {
-    margin-left: 50px;
-  }
-  .clases-container {
-    margin-left: 150px;
-  }
-  #contactanos {
-    margin-left: 90px;
-  }
-  #contactanos h3 {
-    margin-left: 300px;
-  }
-  .footer-links {
-    margin-left: 400px;
-  }
-  footer p {
-    margin-left: 400px;
+  .about {
+    padding-left: 350px;
   }
 }
