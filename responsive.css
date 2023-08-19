@@ -221,14 +221,13 @@
     display: none;
   }
   #home {
-    padding-left: 70px;
+    padding-left: 60px;
   }
-  .home-info {
-    gap: 0.5px;
-  }
+
   .home-info h1 {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 100px;
+    /* background-color: brown; */
   }
   .home-info p {
     font-size: 25px;
@@ -243,5 +242,36 @@
   }
   .about {
     padding-left: 350px;
+  }
+  .info-clases {
+    padding-top: 10px;
+  }
+  .info-clases h1 {
+    width: 600px;
+    height: 250px;
+    padding-left: 300px;
+    padding-top: 50px;
+    font-size: 45px;
+    margin-left: 100px;
+  }
+  .info-clases p {
+    width: 900px;
+    height: 200px;
+    margin: auto;
+    margin-left: 100px;
+
+    font-size: 3000px;
+  }
+  .clases-container {
+    margin: auto;
+    margin-left: 370px;
+  }
+  #contactanos {
+    margin: auto;
+    margin-left: 50px;
+  }
+  footer {
+    margin: auto;
+    margin-left: 350px;
   }
 }
