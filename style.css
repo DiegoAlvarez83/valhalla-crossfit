@@ -76,9 +76,10 @@ header {
 .menu a {
   color: var(--background);
 }
-.menu i{
-  font-size: 50px;
+.navbar i{
+  font-size: 70px;
   display: none;
+  padding-top: 80px;
 
 
 }
